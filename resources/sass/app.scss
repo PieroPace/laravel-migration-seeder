@@ -1,0 +1,21 @@
+@import "~bootstrap/scss/bootstrap";
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .card {
+        list-style: none;
+        width: calc(100% / 3);
+        margin-right: 1em;
+        padding: 1em;
+        border: 1px solid black;
+        text-align: center;
+
+        li {
+            margin-bottom: 1em;
+        }
+    }
+}
